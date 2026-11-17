@@ -1,0 +1,175 @@
+{
+  "title": "Registro presenze del laboratorio didattico",
+  "description": "Gestione delle presenze, degli orari di entrata e uscita e delle attività svolte, con dati di prova inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle presenze e delle attività registrate nel laboratorio.",
+      "metrics": [
+        {
+          "label": "Presenze oggi",
+          "value": "18"
+        },
+        {
+          "label": "Entrate registrate",
+          "value": "18"
+        },
+        {
+          "label": "Uscite registrate",
+          "value": "12"
+        },
+        {
+          "label": "Attività svolte",
+          "value": "7"
+        }
+      ],
+      "columns": [
+        "Partecipante",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "12/05/2025",
+          "09:00",
+          "12:30",
+          "Esperimenti con colori"
+        ],
+        [
+          "Vela",
+          "12/05/2025",
+          "09:10",
+          "12:15",
+          "Costruzione di forme"
+        ],
+        [
+          "Nubi",
+          "12/05/2025",
+          "08:55",
+          "—",
+          "Lettura condivisa"
+        ],
+        [
+          "Rugiada",
+          "12/05/2025",
+          "09:20",
+          "12:40",
+          "Osservazione delle piante"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-presenze",
+      "title": "Registro presenze",
+      "description": "Consulta e filtra gli orari di entrata e uscita e le attività svolte.",
+      "metrics": [],
+      "columns": [
+        "Partecipante",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "12/05/2025",
+          "09:00",
+          "12:30",
+          "Esperimenti con colori"
+        ],
+        [
+          "Vela",
+          "12/05/2025",
+          "09:10",
+          "12:15",
+          "Costruzione di forme"
+        ],
+        [
+          "Nubi",
+          "12/05/2025",
+          "08:55",
+          "—",
+          "Lettura condivisa"
+        ],
+        [
+          "Rugiada",
+          "12/05/2025",
+          "09:20",
+          "12:40",
+          "Osservazione delle piante"
+        ],
+        [
+          "Brina",
+          "12/05/2025",
+          "09:05",
+          "12:20",
+          "Disegno dal vero"
+        ],
+        [
+          "Solea",
+          "12/05/2025",
+          "09:15",
+          "—",
+          "Giochi di logica"
+        ],
+        [
+          "Limo",
+          "11/05/2025",
+          "09:00",
+          "12:30",
+          "Esperimenti con colori"
+        ],
+        [
+          "Vela",
+          "11/05/2025",
+          "09:05",
+          "12:25",
+          "Lettura condivisa"
+        ],
+        [
+          "Nubi",
+          "11/05/2025",
+          "09:10",
+          "12:35",
+          "Costruzione di forme"
+        ],
+        [
+          "Rugiada",
+          "11/05/2025",
+          "08:50",
+          "12:10",
+          "Disegno dal vero"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-presenza",
+      "title": "Registra una presenza",
+      "description": "Aggiungi una riga al registro indicando partecipante, orari e attività.",
+      "metrics": [],
+      "columns": [
+        "Partecipante",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ],
+      "rows": [],
+      "form": [
+        "Partecipante",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ]
+    }
+  ]
+}
